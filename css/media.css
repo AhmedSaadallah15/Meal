@@ -1,0 +1,149 @@
+@media screen and (max-width: 660px) {
+    /* start head section  */
+    *{
+        font-size: 20px;
+    }
+    .nav {
+        display: flex;
+        flex-flow: column;
+    }
+.header{
+    height: 100vh;
+    display: flex;
+    flex-flow: column-reverse;
+}
+.header  .picture{
+    width: 100%;
+}
+
+.header .header-text{
+    width: 100%;
+}
+.header .header-text h2{
+    font-size: 40px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    color: #37373F;
+    /* padding-top: 20px; */
+}
+.header .header-text button{
+    font-size: 18px;
+    padding: 5px 15px;
+}
+/* end the head section  */
+/* start the chef section  */
+.chef-section{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 15px;
+    align-content: center;
+}
+.container2 .chef-section .chefs{
+    text-align: center;
+    width: 90%;
+}
+/* end the chef section  */
+/* start the grid section  */
+.gallrey{
+    display: grid;
+    height: 125vh;
+    grid-template-areas: 
+    "pizza" 
+    "pizza" 
+    "pizza" 
+    "pizza" 
+    "pizza" 
+    "pizza" 
+    "pizza" 
+    "Beef-steaks"  
+    "Beef-steaks"  
+    "Beef-steaks"  
+    "Beef-steaks"  
+    "Beef-steaks"  
+    "Beef-steaks"  
+    "Beef-steaks"  
+    "Burger"
+    "Burger"
+    "Burger"
+    "Burger"
+    "Burger"
+    "Burger"
+    "Burger"
+    "Levitation-Pizza"  
+    "Levitation-Pizza"  
+    "Levitation-Pizza"  
+    "Levitation-Pizza"  
+    "Levitation-Pizza"  
+    "Levitation-Pizza"  
+    "Levitation-Pizza"  
+    "Crispy"
+    "Crispy"
+    "Crispy"
+    "Crispy"
+    "Crispy"
+    "Crispy"
+    "Crispy"
+    "Frittata" 
+    "Frittata" 
+    "Frittata" 
+    "Frittata" 
+    "Frittata" 
+    "Frittata" 
+    "Frittata" 
+    "kebab"
+    "kebab"
+    "kebab"
+    "kebab"
+    "kebab"
+    "kebab"
+    "kebab";
+}
+/* end the grid section  */
+/* start the data section  */
+
+
+.address{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+/* end the data section  */
+/* start the footer section  */
+.footer{
+    margin-top: 50px;
+    height: 200vh;
+    
+}
+.container3 {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    height: 200vh;
+    
+}
+.section1{
+    text-align: center;
+    width: 100%;
+}
+.latter{
+    width: 100%;
+}
+.gettouch{
+    width: 100%;
+}
+.mail button{
+    padding: 20px;
+    width: 40%;
+}
+.links ul {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+/* end the footer section  */
+}

@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px ;
+
+}
+.clear-fix{
+    clear: both;
+}
+/* start navbar */
+.home{
+    height: 800px;
+    background-image : url("/images/hero\ img.jpg") ;
+    background-size :cover ;
+    height: 100vh;
+    background-position: center;
+}
+
+.home .container{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+
+.home .total{
+    width: 90%;
+    margin: auto;
+
+}
+.home .nav{
+    width: 100%;
+
+}
+
+.home .nav ul {
+    float: right;
+    list-style-type: none;
+    
+}
+.total li {
+    float: left;
+    margin: 10px 10px ;
+}
+.total li a {
+    color: white;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight : 300
+}
+.home h1{
+    float: left;
+    color: rgb(236, 13, 87);
+    margin: 5px 20px;
+    font-size: 24px ;
+    font-weight: 800;
+    
+
+}
+/* end navbar */
+/* hello start */
+.home .hello {
+    width: 100%;
+    margin: auto; 
+    padding: 150px;
+}
+.hello p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.hello p #web{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.hello h2{
+    color:rgb(236, 13, 87);
+    padding: 1px 0 ;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Source Sans 3', sans-serif;
+}
+/* hello end */
+/* start about section  */
+
+.about .photo{
+    width: 50%;
+    float: left;
+}
+.about{
+  margin-top: 10px;
+}
+
+.about .photo img{
+    width: 100%;
+    border-radius: 2%;
+    margin: 0 auto;
+    /* width: 65%; */
+    position: relative;
+    
+}
+.about .photo .black-border .black-lair{
+    position: absolute;
+    top: 105%;
+    left: 5%;
+    bottom: -5%;
+    right: -5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition-duration:  0.5s;
+    text-align: center;
+    
+
+}
+.about .black-border {
+    border: #555555 10px solid;
+    border-radius: 2%;
+    margin: 0 auto;
+    width: 65%;
+    position: relative;
+}  
+.about .photo .black-border .black-lair img{
+    opacity: 0;
+    height: 0;
+    transition-duration:  1s;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.about .photo .black-border:hover .black-lair{
+    top: 5%;
+    left: 5%;
+    bottom: -5%;
+    right: -5%;
+    text-align: center;
+  
+  }
+  
+  .about .photo .black-border:hover .logos{
+    opacity: 1;
+    height: 15%;
+    text-align: center;
+  
+  }
+  
+  
+  
+  .about .text {
+    float: right;
+    width: 50%;
+  }
+  
+  .about .text h2 {
+    text-transform: uppercase;
+    padding-left: 7px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    position: relative;
+  }
+  .about .text h2::before {
+  
+    content: "";
+    background-color: #ff305b;
+    width: 5px;
+    top: -2;
+    left: -5;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .about .text p {
+    font-size: 16px;
+    line-height: 25px;
+    border-bottom: 1px dashed;
+    padding-bottom: 20px;
+  }
+  
+  .about .text ul {
+    padding: 0;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  }
+  
+  .about .text .left {
+    float: left;
+    width: 40%;
+  }
+  
+  .about .text .right {
+    float: left;
+    width: 60%;
+  
+  }
+  .about .text .right a {
+    text-decoration: none;
+    color: #555555;
+  }
+.about .text ul li {
+    margin-bottom: 20px;
+    color: #555555;
+  }
+  .about .text ul li b {
+    color: black;
+    font-weight: 500;
+  }
+  
+  .about button {
+    background-color: #ff305b;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    margin: 0 10px 0 0;
+    border-radius: 5%;
+    text-transform: capitalize;
+  }
+  .about button i {
+    font-size: 15px;
+  }
+  
+
+/* end about section  */
+/* start Our Services */
+.Services{
+    /* width: 100%; */
+    /* height: 50px; */
+    padding: 10px;
+    
+}
+.Services .design{
+    width: 25%;
+    float: left;
+    background-color:rgb(243, 237, 237);
+    border: solid 2px white;
+}
+.Services .title h4{
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+/* background-color: red; */
+
+}
+.Services .design h5{
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+}
+.Services .design p{
+text-align: center;
+
+}
+.design i{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    color:rgb(202, 28, 80);
+    font-size: 25px;
+}
+/* end Our Services */
+/* start Our Portfolio */
+
+.portfolio{
+    width: 500px;
+    height: 500px;
+    /* background-color: teal; */
+    margin-top: 30px;
+}
+.prodcut{
+text-align: center;
+}
+.prodcut button{
+    margin: 10px;
+    text-align: center;
+    color: black;
+    border: transparent;
+    background-color: white;
+}
+.view-proudcut{
+    width: 75%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.view-proudcut img{
+    width: 26%;
+    float: left;
+    padding: 10px;
+    margin: 30px;
+}
+
+/* end Our Portfolio */
+/* start Client's Feedback */
+.feedback{
+  background-color: rgb(227, 236, 236);
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 10px solid black;
+  overflow: hidden;
+}
+
+.feedback h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.feedback .feedback-box{
+  /* background-color: red; */
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+
+}
+.feedback .feedback-box h3{
+font-size: 26px;
+font-weight: 600;
+}
+.feedback .feedback-box p{
+font-size: 16px;
+font-weight: 400;
+}
+.feedback .feedback-box i{
+color: rgb(243, 243, 62);
+}
+.feedback .feedback-me {
+  float: left;
+  position: relative;
+  width: 25%;
+}
+.feedback .feedback-me::before{
+content: "";
+  border: transparent 250px solid;
+  border-left-color: #ff305b ;
+  position: absolute; 
+  bottom:30%;
+  left: -155px; 
+}
+.box{
+  margin: auto;
+  margin-top: 20px;
+  width: 70%;
+}
+.feedback .feedback-me img{
+  width: 25;
+  border: 2px solid transparent;
+  border-radius: 100%;
+
+}
+
+/* end Client's Feedback */
+/* start blog */
+.blog h1{
+text-align: center;
+padding: 10px;
+}
+.blog{
+  float: left;
+  width: 90%;
+  margin: 60px;
+  background-color: #f0efef;
+}
+.blog  .blog-content{
+  float: left;
+  width: 30%;
+  background-color: white;
+  border: solid black 2px;
+  padding: 10px;
+  margin: 20px;
+  
+}
+.blog .blog-content img{
+width: 100%;
+}
+
+/* end  blog */
+
+
+
+
+/* start form  */
+.massege{
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+.contact-us h2{
+  text-align: center;
+  padding: 20px;
+}
+
+.massege input{
+  width: 100%;
+  padding: 10px;
+  border: rgb(204, 204, 204) solid 2px;
+  border-radius: 5px;
+  float: left;
+}
+
+
+
+.massege .subject{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-padding-text , .input-padding-email
+{
+width: 50%;
+float: left;
+padding-bottom: 20px;
+}
+
+.input-padding-email{
+padding-left: 15px;
+}
+
+.input-padding-text{
+padding-right: 15px;
+
+}
+
+
+.massege .button{
+background-color: #ff305b;
+color: white;
+text-transform: uppercase;
+width: 25%;
+border-radius: 5px ;
+border: none;
+}
+
+
+#messege{
+  width: 100%;
+  margin-bottom: 20px;
+  border: rgb(204, 204, 204) solid 2px;
+}
+
+
+
+
+
+
+
+
+
+/* end  form  */
+
+/* start footer */
+.footer{
+  background-color: #333;
+  text-align: center;
+  padding: 60px;
+}
+
+.footer p{
+  margin: 10px 0 0 0;
+  color: white;
+}
+
+.footer i{
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+}
